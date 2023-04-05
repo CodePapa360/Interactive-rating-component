@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "This is a solution to the Interactive rating component challenge on Frontend Mentor.",
+  "web": "./dist/index.html",
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./"
+    }
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Alamin",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "sass": "^1.60.0"
+  }
+}
