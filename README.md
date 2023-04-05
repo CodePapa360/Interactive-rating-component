@@ -1,15 +1,17 @@
 <h1 align="center">Interactive Rating Component</h1>
 
 <div align="center">
-  <h5>
-    <a href="https://interactive-rating-alamin.netlify.app/" target="_blank" style="background: linear-gradient(to right, #7F00FF, #E100FF); color: #fff; display: inline-block; padding: 8px 12px; margin: 4px 2px; border-radius: 5px; text-decoration: none; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);">
+  <h3>
+    <a href="https://interactive-rating-alamin.netlify.app/" target="_blank">
       🚀 Live Site
     </a>
-    <a href="solution-link" target="_blank" style="background: linear-gradient(to right, #007bff, #00c6ff); color: #fff; display: inline-block; padding: 8px 12px; margin: 4px 2px; border-radius: 5px; text-decoration: none; box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);">
+    |
+    <a href="solution-link" target="_blank">
       💡 Solution
     </a>
   </h5>
 </div>
+
 <div align="center">
   <p>
     This is my solution for the Interactive Rating Component challenge on Frontend Mentor. The challenge required me to create a responsive and interactive rating component using HTML, CSS, and JavaScript. Check out the live site!</p>
