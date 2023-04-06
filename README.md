@@ -51,6 +51,32 @@ Users should be able to:
 
 In this project, I was able to practice my JavaScript skills by creating an interactive rating component. I gained practical experience in working with event listeners and managing states in JavaScript. Through this challenge, I was able to apply my knowledge of JavaScript to build real-world applications. Overall, this project helped me improve my front-end development skills, specifically in JavaScript.
 
+## Installation
+
+- Clone this repo:
+
+```sh
+git clone https://github.com/CodePapa360/Interactive-rating-component.git
+```
+
+- Install dependencies:
+
+```sh
+npm install
+```
+
+- Build command:
+
+```sh
+npm run build
+```
+
+- Run command:
+
+```sh
+npm start
+```
+
 ## Author
 
 <b>👤 Alamin</b>
@@ -65,3 +91,11 @@ Feel free to contact me with any questions or feedback!
 ## Acknowledgments
 
 I would like to express my gratitude to the team at Frontend Mentor for providing me with this engaging challenge. Their platform has been an invaluable resource for improving my front-end development skills. I also want to thank my fellow developers and the online community for their support and inspiration throughout this project.
+
+## Show your support
+
+Give a ⭐️ if you liked this project!
+
+## License
+
+This project is licensed under the [MIT](https://github.com/CodePapa360/Interactive-rating-component/blob/main/LICENSE) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
