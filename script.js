@@ -7,13 +7,11 @@ import illustrationIcon from "url:./images/illustration-thank-you.svg";
 // Select parent element
 const parentElement = document.querySelector(".main-contents");
 
-const eachRating = document.querySelectorAll(".rating-number");
+let ratingNums = document.querySelector(".rating-numbers");
+let eachRating = document.querySelectorAll(".rating-number");
 
 // Initialize selectedNum to null
 let selectedNum = null;
-
-// Define ratingNums
-let ratingNums = document.querySelector(".rating-numbers");
 
 // Add event listener to parent element
 parentElement.addEventListener("click", function (e) {
@@ -111,9 +109,9 @@ const ratingState = function () {
     parentElement.innerHTML = markup;
     parentElement.style.opacity = "1";
 
-    // Add a new event listener for 'click' on ratingNums
     ratingNums = document.querySelector(".rating-numbers");
     ratingSelection();
+    eachRating = document.querySelectorAll(".rating-number");
   }, 200);
 };
 
