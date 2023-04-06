@@ -19,13 +19,10 @@
 
 ### Screenshot
 
-<p align="center" >
-<a href="https://interactive-rating-alamin.netlify.app/" target="_blank">
+<a align="center" href="https://interactive-rating-alamin.netlify.app/" target="_blank">
 
 <img src="screenshots/Screenshot Interactive rating component Frontend Mentor Alamin.png"/>
 </a>
-
-</p>
 
 ### The challenge
 
