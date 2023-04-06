@@ -6,7 +6,7 @@
       🚀 Live Site
     </a>
     |
-    <a href="solution-link" target="_blank">
+    <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-w-sass-ItEH_ZdH0y" target="_blank">
       💡 Solution
     </a>
   </h5>
