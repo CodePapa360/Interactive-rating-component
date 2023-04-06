@@ -52,15 +52,18 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <script type="module" defer src="./script.js"></script>
+
     <title>Interactive rating component | Frontend Mentor | Alamin</title>
   </head>
   <body>
     <div class="top-container">
       <main class="main-contents">
-        <!-- Rating state -->
-        <!-- 
-          <div class="rating-state">
-          <img src="./images/icon-star.svg" alt="Star icon" />
+        <div class="rating-state">
+          <div class="rating-state__icon-star">
+            <img src="./images/icon-star.svg" alt="Star icon" />
+          </div>
 
           <h1 class="rating-state__header">How did we do?</h1>
           <p class="rating-state__description">
@@ -70,24 +73,21 @@
 
           <form action="">
             <ul class="rating-numbers">
-              <li class="rating-number">1</li>
-              <li class="rating-number">2</li>
-              <li class="rating-number">3</li>
-              <li class="rating-number">4</li>
-              <li class="rating-number">5</li>
+              <li class="rating-number" data-ratingValue="1">1</li>
+              <li class="rating-number" data-ratingValue="2">2</li>
+              <li class="rating-number" data-ratingValue="3">3</li>
+              <li class="rating-number" data-ratingValue="4">4</li>
+              <li class="rating-number" data-ratingValue="5">5</li>
             </ul>
 
             <button class="btn-submit" type="submit">Submit</button>
           </form>
-        </div> 
-      -->
+        </div>
 
-        <!--  -->
-        <!--  -->
-
-        <!-- Thank you state start -->
         <!-- <div class="thanking-state">
+          <span class="back-arrow">◄</span>
           <img
+            class="thanking-state__illustration"
             src="./images/illustration-thank-you.svg"
             alt="Thank you illustration"
           />
@@ -102,5 +102,27 @@
         </div> -->
       </main>
     </div>
+
+    <footer>
+      <div class="attribution-wrapper">
+        <p class="attribution">
+          Coded by
+          <a
+            class="attb-link"
+            href="https://twitter.com/CodePapa360"
+            target="_blank"
+            >Alamin</a
+          >
+          <br />
+          Challenge by
+          <a
+            class="attb-link attb-fem"
+            href="https://www.frontendmentor.io/profile/CodePapa360"
+            target="_blank"
+            >Frontend Mentor</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

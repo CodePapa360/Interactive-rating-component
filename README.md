@@ -19,7 +19,13 @@
 
 ### Screenshot
 
-<p><img align="center" src="screenshots/Screenshot compared - Frontend Mentor Results summary component.png"/></p>
+<p align="center" >
+<a href="https://interactive-rating-alamin.netlify.app/" target="_blank">
+
+<img src="screenshots/Screenshot Interactive rating component Frontend Mentor Alamin.png"/>
+</a>
+
+</p>
 
 ### The challenge
 
@@ -29,6 +35,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+- **Bonus** Added a Back arrow button to go back and rate again.
 
 #### Built with
 

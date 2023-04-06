@@ -1,0 +1,49 @@
+.thanking-state > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.thanking-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  .back-arrow {
+    background-color: var(--Orange);
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+
+    user-select: none;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+
+  &__illustration {
+    width: auto;
+    max-height: 6rem;
+    margin-top: -1rem;
+  }
+
+  &__rating-output {
+    font-size: 0.8rem;
+    background-color: var(--Dark-Blue);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: var(--Orange);
+  }
+
+  &__header {
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    opacity: 0.5;
+  }
+}

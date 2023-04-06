@@ -1,0 +1,71 @@
+.rating-state > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.rating-state {
+  &__header {
+    font-size: 1.5rem;
+  }
+
+  &__icon-star {
+    background-color: var(--Dark-Blue-circle);
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  &__description {
+    opacity: 0.5;
+  }
+
+  form {
+    .rating-numbers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-bottom: 1.5rem;
+
+      .rating-number {
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: var(--Dark-Blue-circle);
+        color: var(--White);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in-out;
+
+        &:hover {
+          background-color: var(--Orange);
+        }
+      }
+
+      .active {
+        background-color: var(--Orange);
+      }
+    }
+
+    .btn-submit {
+      width: 100%;
+      background-color: var(--Orange);
+      color: var(--White);
+      border: none;
+      border-radius: 20px;
+      padding: 0.5rem 0;
+      transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--White);
+        color: var(--Orange);
+      }
+    }
+  }
+}
